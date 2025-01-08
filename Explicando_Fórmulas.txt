@@ -1,0 +1,26 @@
+1. Transformando de str para int / transformando em segundos para calculo
+
+Transforma o formato de str(00:00:00) para int e para segundos
+link onde peguei a formula: https://www.inchcalculator.com/time-to-seconds-calculator/
+
+Formato para calcular:
+    entrada_segundos = (int(entrada.split(':')[0]) * 3600) + (int(entrada.split(':')[1]) * 60) + (int(entrada.split(':')[2]))
+
+    saida_segundos = (int(saida.split(':')[0]) * 3600) + (int(saida.split(':')[1]) * 60) + (int(saida.split(':')[2]))
+
+subtrair a entrada com a saída para obter a diferença de valores
+    tempo_total = saida_segundos - entrada_segundos
+
+=============================================================================================================================
+
+2. Transformando de volta os segundos para horas xx:xx:xx
+
+link onde peguei a formula: https://stackoverflow.com/questions/775049/how-do-i-convert-seconds-to-hours-minutes-and-seconds
+
+Fórmula:
+    horas    = tempo_total // 3600 % 24
+    minutos  = tempo_total % 3600 // 60
+    segundos = tempo_total % 3600 % 60
+
+    Formatando para o formato XX:XX:XX
+        list.append(f'{horas}:{minutos}:{segundos}')
