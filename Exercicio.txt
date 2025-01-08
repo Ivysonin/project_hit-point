@@ -1,0 +1,28 @@
+Desenvolva um sistema de controle de ponto em Python, que permita aos funcionários registrar suas entradas e saídas durante o expediente de trabalho, sem utilizar bibliotecas externas como datetime. O sistema deve funcionar da seguinte forma:
+
+O funcionário deve poder registrar sua entrada no trabalho, armazenando a hora exata do registro em formato de horas, minutos e segundos.
+O funcionário deve poder registrar sua saída do trabalho, armazenando também a hora exata da saída.
+O sistema deve calcular automaticamente o tempo total trabalhado (diferença entre a hora de entrada e a hora de saída), levando em consideração as horas, minutos e segundos.
+O sistema deve garantir que a saída só possa ser registrada após a entrada.
+O sistema deve continuar funcionando em um loop, permitindo que o funcionário registre várias entradas e saídas durante o dia.
+Ao final de cada dia (ou quando o funcionário escolher sair), o sistema deve exibir um resumo com o tempo total trabalhado no dia e perguntar se o funcionário deseja continuar ou sair do programa.
+Requisitos:
+
+O sistema deve armazenar as horas de entrada e saída no formato HORA:MINUTO:SEGUNDO.
+O cálculo do tempo trabalhado deve ser feito sem o uso de bibliotecas externas, apenas com a manipulação de números inteiros para representar as horas, minutos e segundos.
+O programa deve permitir ao funcionário escolher entre registrar a entrada, registrar a saída ou sair do sistema
+
+
+EXEMPLO
+
+Bem-vindo ao sistema de controle de ponto!
+
+Deseja registrar seu ponto de entrada ou saída? (entrada/saída/sair): entrada
+Ponto de entrada registrado: 08:00:00
+
+Deseja registrar seu ponto de entrada ou saída? (entrada/saída/sair): saída
+Ponto de saída registrado: 17:00:00
+Tempo total trabalhado: 09:00:00
+
+Deseja registrar seu ponto de entrada ou saída? (entrada/saída/sair): sair
+Saindo do sistema de controle de ponto.
