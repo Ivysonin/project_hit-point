@@ -1,0 +1,13 @@
+link onde peguei a fórmula para transforma os valores em segundos: 
+    https://www.inchcalculator.com/time-to-seconds-calculator/
+
+link onde pego e faço para converter segundos em horas, minutos e segundos:
+    https://stackoverflow.com/questions/775049/how-do-i-convert-seconds-to-hours-minutes-and-seconds
+
+link da calculadora online:
+    https://www.calculator.net/time-calculator.html?tcday1=0&tchour1=12&tcminute1=05&tcsecond1=20&Op=-&tcday2=0&tchour2=03&tcminute2=24&tcsecond2=33&tcday3=&tchour3=-8&tcminute3=-40&tcsecond3=-47&ctype=1&x=Calculate
+
+link dos códigos de COR:
+    https://hub.asimov.academy/tutorial/como-imprimir-texto-colorido-no-terminal-com-python/
+    https://pythonhoje.wordpress.com/2018/01/28/python-3-cores/
+    chatgpt.com
